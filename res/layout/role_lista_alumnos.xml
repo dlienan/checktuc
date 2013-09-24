@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="horizontal" android:baselineAligned="false">
+	<LinearLayout android:orientation="vertical"
+	android:layout_gravity="left" android:layout_height="wrap_content" android:layout_width="278dp">
+		<TextView android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="@string/alumno_nombre_default" android:id="@+id/role_alumnos_lista_nombre" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/alumno_numero_default"
+			android:id="@+id/role_alumnos_lista_numero" android:layout_weight="1" android:layout_width="wrap_content">
+		</TextView>
+	</LinearLayout>
+	<ImageView android:id="@+id/imageView1" android:src="@drawable/truth" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+</LinearLayout>

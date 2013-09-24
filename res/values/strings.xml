@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">CheckTUC</string>
+    <string name="Alumnos">Student List</string>
+    <string name="alumno_nombre_default">John Doe</string>
+    <string name="alumno_numero_default">01234567</string>
+    <string name="SplashMenu_ADD_CLASS">Add Class</string>
+    <string name="SplashMenu_VIEW_STUDENTS">Students</string>
+    <string name="SplashMenu_ABOUT">About</string>
+    <string name="SplashMenu_HELP">Help</string>
+    <string name="SplashMenu_STATS">Statistics</string>
+    <string name="SplashMenu_EXPORT">Export</string>
+    <string name="SplashMenu_FILTER_DATE">Filter by date</string>
+    <string name="SplashMenu_FILTER_CLASS">Filter by class</string>
+    <string name="SplashMenu_DEBUG_ROLE">Attendance LOG</string>
+    <string name="SplashMenu_DEBUG_SESS">SESSION LOG</string>
+    <string name="class_creation_text">Class Name</string>
+    <string name="class_creation_accept_text">Accept</string>
+    <string name="class_creation_title">Class Creation</string>
+    <string name="session_delete_dialog">Are you sure you want to delete this session?</string>
+    <string name="delete_class">Are you sure you want to delete this class?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string-array name="class_context">
+        <item>Modify Class</item>
+        <item>Delete Class</item>
+        <item>Export Attendance</item>
+    </string-array>
+    <string-array name="class_context2">
+        <item>Modify Class</item>
+        <item>Delete Class</item>
+    </string-array>
+
+    <string name="class_context_text">Choose an option</string>
+    <string name="create_session_context">Choose a duration</string>
+
+    <string-array name="session_times">
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>1 hour, 30 Minutes</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string name="mock_profile_name">John Doe</string>
+    <string name="mock_profile_id">67584390lol</string>
+    <string name="mock_profile_link">1234567</string>
+    <string name="mock_profile_email">jdoe@example.com</string>
+    <string name="mock_profile_phone">+56299916470</string>
+    <string name="profile_rating">Rating:</string>
+    <string name="profile_prefix_name">Name: </string>
+    <string name="profile_prefix_id">ID: </string>
+    <string name="profile_prefix_link">LINK: </string>
+    <string name="profile_prefix_email">Email: </string>
+    <string name="profile_prefix_phone">Phone: </string>
+    <string name="profile_link_button">Link</string>
+    <string name="profile_link_button_wait">Waiting...</string>
+    <string name="empty"></string>
+    <string name="student_menu_add">Add Student</string>
+    <string name="student_creator_save">Save</string>
+    <string name="edit">Edit</string>
+
+    <string-array name="student_options">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="class_mod_array">
+        <item>Delete</item>
+    </string-array>
+
+    <string name="export">Export</string>
+    <string name="db_import">Import</string>
+    <string name="accept">Accept</string>
+    <string name="add_new_student">Add new student</string>
+    <string name="add_new_class">Add new class</string>
+    <string name="no_students">There are no students!</string>
+    <string name="default_number">Please add new students</string>
+    <string name="saved">Saved!</string>
+    <string name="class_view_title">Class List</string>
+    <string name="invalid_student">"Not a valid student"</string>
+    <string name="class_mod_title">Student List For: </string>
+    <string name="add_student_class">Add a student to the class</string>
+    <string name="add_session">Add a session</string>
+    <string name="sessions_title">Sessions</string>
+    <string name="camera_button_text">Take Picture</string>
+    <string name="illegal_characters">Your Student ID cannot contain characters such as \ / : * ? " &lt; > |</string>
+    <string name="empty_fields">Save Failed! Student Name and ID must not be empty.</string>
+
+    <string-array name="child_context">
+        <item>Delete</item>
+        <item>Export</item>
+    </string-array>
+
+    <string name="student_creation_surname">Surname:</string>
+    <string name="student_creation_second_surname">Second Surname:</string>
+    <string name="students_import_button">Import Students</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+
+    <color name="gray">#ffff0000</color>
+
+    <string name="contactinfo1">afchacon@uc.cl</string>
+
+    <string name="contactinfo2">aneyem@ing.puc.cl</string>
+
+    <string name="contactinfoname1">Student: Andrés Chacón</string>
+
+    <string name="contactinfoname2">Professor: Andrés Neyem</string>
+
+    <string name="contact">Contact Information</string>
+
+    <string name="log_name">Tag Log</string>
+
+    <string name="info_text_long">CheckTUC is an application that enables teachers and whomever may need it to take assitance in a simple way using RFID enabled cards. It can also upload .dat (UC only file format) files from a dropbox account to the device to allow for fast class and student creation.</string>
+
+</resources>

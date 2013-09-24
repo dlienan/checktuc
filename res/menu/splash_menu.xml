@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/students" android:title="@string/SplashMenu_VIEW_STUDENTS"></item>
+    <item android:id="@+id/role_log" android:title="@string/SplashMenu_DEBUG_ROLE"></item>
+    <item android:id="@+id/new_class" android:title="@string/SplashMenu_ADD_CLASS"></item>
+    <item android:id="@+id/about" android:title="@string/SplashMenu_ABOUT"></item>
+    <item android:id="@+id/sess_log" android:title="@string/SplashMenu_DEBUG_SESS"></item>
+    <item android:id="@+id/dropbox" android:title="Export"></item>
+    
+</menu>

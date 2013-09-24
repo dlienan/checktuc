@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:weightSum="1">
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/Alumnos" android:layout_weight="0" android:layout_width="match_parent" android:id="@+id/alumnos_title"></TextView>
+<View android:layout_width="fill_parent" android:layout_height="2dip" 
+		android:background="#FFAAAAAA" />
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0" >
+
+    <ListView
+        android:id="@+id/listbase"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/students_import_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/students_import_button" />
+
+</LinearLayout>
+
+<View android:layout_width="fill_parent" android:layout_height="2dip" 
+		android:background="#FFAAAAAA" />
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="1" >
+</ListView>
+</LinearLayout>
